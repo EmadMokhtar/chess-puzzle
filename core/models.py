@@ -11,7 +11,7 @@ class ChessBoard:
 
         board = []
         for i in range(height):
-            col = ['x' for _ in range(width)]
+            col = ['X' for _ in range(width)]
             board.append(col)
 
         self.board = board
